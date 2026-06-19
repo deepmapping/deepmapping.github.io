@@ -2,21 +2,33 @@ project:
   type: website
 
 website:
-  title: "deepmapping.github.io"
+  title: ""
   navbar:
+    background: light
+    search: true
+    back-to-top-navigation: true
+    tools:
+      - icon: github
+        href: https://github.com/deepmapping/deepmapping.github.io
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
+  page-footer:
+    left: © 2026 [Chavdar Kirilov](https://orcid.org/0000-0003-3017-0636)
+    center: All content licensed under<br>[Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+    right: Made with [Quarto](https://quarto.org)
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: cosmo
+      dark: darkly
     css: styles.css
     toc: true
+    toc-location: right
+    link-citations: true
 
 
 
