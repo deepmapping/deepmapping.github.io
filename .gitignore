@@ -1,0 +1,12 @@
+# Quarto local server & render caches
+/.quarto/
+/_site/
+
+# Operating System garbage files
+.DS_Store
+Thumbs.db
+
+# User-specific configurations
+.vscode/
+.Rhistory
+.RData
