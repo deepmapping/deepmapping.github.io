@@ -1,0 +1,10 @@
+/*-- scss:defaults --*/
+// Softer Dark Palette (Charcoal & Slate)
+$body-bg:            #212529; /* A softer charcoal grey—the official Bootstrap 5 dark background */
+$body-color:         #e9ecef; /* Soft off-white text (reduces eye strain compared to pure white) */
+$link-color:         #4791ff; /* Clear, highly accessible blue for links */
+
+// Fix the header for dark mode:
+$navbar-bg:          #2c3034; /* Slightly lighter slate for the navbar to give it a nice depth separation */
+$navbar-fg:          #e9ecef; /* Matching soft off-white text for nav links */
+$navbar-hl:          #4791ff; /* Matching hover color for header links */
