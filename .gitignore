@@ -10,3 +10,4 @@ Thumbs.db
 .vscode/
 .Rhistory
 .RData
+**/*.quarto_ipynb
